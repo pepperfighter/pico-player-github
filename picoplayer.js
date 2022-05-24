@@ -19,7 +19,7 @@ var pico8keys = [
 function PicoPlayer(element, cart, lib) {
   // fallback to bbs version of pico8 console
   if (!lib) {
-    lib = 'https://www.lexaloffle.com/bbs/pico8_0112c_2.js';
+    lib = 'https://www.w3.org/services/html2txt?url=https%3A%2F%2Fwww.lexaloffle.com%2Fbbs%2Fpico8_0112c_2.js';
   }
 
   // load element by ID
