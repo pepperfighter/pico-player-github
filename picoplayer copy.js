@@ -19,7 +19,7 @@ var pico8keys = [
 function PicoPlayer(element, cart, lib) {
     // fallback to bbs version of pico8 console
     if (!lib) {
-        lib = '/pico8_0112c_2222.js';
+        lib = 'pico8_0112c_2.js';
     }
 
     // load element by ID
